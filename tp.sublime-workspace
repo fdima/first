@@ -1,0 +1,570 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"counter"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"des",
+				"desc"
+			],
+			[
+				"de",
+				"desc"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"ch",
+				"chanons"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ti",
+				"ticket-price"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"list",
+				"List3"
+			],
+			[
+				"s",
+				"sum"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bu",
+				"background-color\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"page",
+				"page-choice"
+			],
+			[
+				"pAD",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"i",
+				"inline\tdisplay"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"se",
+				"sans-serif\tfont-family"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ne",
+				"next_sibling"
+			],
+			[
+				"it",
+				"itema"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"__",
+				"__dict__"
+			],
+			[
+				"fin",
+				"findNext"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"wr",
+				"wr_buf"
+			],
+			[
+				"xor",
+				"xored_second"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/tp.css",
+			"settings":
+			{
+				"buffer_size": 10765,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/tp.js",
+			"settings":
+			{
+				"buffer_size": 11646,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/WebServers/home/localhost/www/fb/tp",
+		"/D/WebServers/home/localhost/www/fb/tp/css",
+		"/D/WebServers/home/localhost/www/fb/tp/data",
+		"/D/WebServers/home/localhost/www/fb/tp/js"
+	],
+	"file_history":
+	[
+		"/D/#doc/Павел/check-xml.py",
+		"/D/WebServers/home/localhost/www/fb/tp/test.html",
+		"/C/Users/dima/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/D/WebServers/home/localhost/www/fb/tp/js/bootstrap.js",
+		"/D/WebServers/home/localhost/www/fb/tp/css/bootstrap.css",
+		"/D/#doc/py/дубли в XML/check-xml.py",
+		"/D/#doc/Павел/check-xml.pl",
+		"/D/#doc/Павел/KP_show.xml",
+		"/D/WebServers/home/localhost/www/fb/tp/js/tp.js",
+		"/D/WebServers/home/localhost/www/fb/tp/css/tp.css",
+		"/D/WebServers/home/localhost/www/fb/tp/index.php",
+		"/D/WebServers/home/localhost/www/fb/tp/index1.php",
+		"/D/WebServers/home/localhost/www/fb/tp/data/1234.json",
+		"/D/WebServers/home/localhost/www/fb/tp/data/123.json",
+		"/D/WebServers/home/localhost/www/m4/_all/data1.json",
+		"/D/WebServers/home/localhost/www/m4/data.json",
+		"/D/WebServers/home/localhost/www/js-p/index.html",
+		"/E/# home - nout- ssd/Downloads/1/1.py",
+		"/D/WebServers/home/localhost/www/video/index1.php",
+		"/D/WebServers/home/localhost/www/fb/tp/pay.php",
+		"/D/WebServers/home/localhost/www/fb/tp/indexj.php",
+		"/D/WebServers/home/localhost/www/yii/views/site/index.php",
+		"/D/WebServers/home/localhost/www/yii/views/prosecution/create.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/ProsecutionController.php",
+		"/D/WebServers/home/localhost/www/yii/views/prosecution/index.php",
+		"/D/WebServers/home/localhost/www/yii/views/prosecution/_form.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/EnforcementproceedingController.php",
+		"/D/WebServers/home/localhost/www/yii/models/Prosecution.php",
+		"/D/WebServers/home/localhost/www/yii/views/prosecution/view.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/OsController.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/MessController.php",
+		"/D/WebServers/home/localhost/www/yii/models/Qrqrt_quest.php",
+		"/D/WebServers/home/localhost/www/fb/FacebookLogin-master/config.php",
+		"/D/WebServers/home/localhost/www/fb/example/index-.php",
+		"/D/WebServers/home/localhost/www/printh.php",
+		"/D/WebServers/home/localhost/www/yii/views/prosecution/update.php",
+		"/D/WebServers/home/localhost/www/yii/views/prbr/_form.php",
+		"/D/WebServers/home/localhost/www/yii/views/prbr/index.php",
+		"/D/WebServers/home/localhost/www/yii/models/Prbr.php",
+		"/D/WebServers/home/localhost/www/yiia/views/site/about.php",
+		"/D/WebServers/home/localhost/www/yii/models/User.php",
+		"/D/WebServers/home/localhost/www/yii/views/prbr/view.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/PrbrController.php",
+		"/D/WebServers/home/localhost/www/yii/views/prbr/update.php",
+		"/D/WebServers/home/localhost/www/yii/controllers/SiteController.php",
+		"/D/WebServers/home/localhost/www/yii/views/layouts/main.php",
+		"/D/WebServers/home/localhost/www/yii/views/enforcementproceeding/create.php",
+		"/D/WebServers/home/localhost/www/yii/views/enforcementproceeding/_form.php",
+		"/D/WebServers/home/localhost/www/yii/views/enforcementproceeding/index.php",
+		"/D/WebServers/home/localhost/www/yii/views/enforcementproceeding/update.php",
+		"/D/WebServers/home/localhost/www/yii/views/enforcementproceeding/view.php",
+		"/D/WebServers/home/localhost/www/yii/views/site/index1.php",
+		"/D/WebServers/home/localhost/www/yii/web/index.php",
+		"/D/WebServers/home/localhost/www/yii/config/params.php",
+		"/D/WebServers/home/localhost/www/yii/config/web.php",
+		"/D/WebServers/home/localhost/www/yii/views/prbr/create.php",
+		"/D/WebServers/home/localhost/www/yii/models/UserIdentity.php",
+		"/D/WebServers/home/localhost/www/yii/-advanced/vendor/codeception/base/src/Codeception/Command/GenerateCest.php",
+		"/D/WebServers/home/localhost/www/yii/models/EnforcementProceeding.php",
+		"/D/Python/check_mail.py",
+		"/D/WebServers/home/localhost/www/yii/yii.php",
+		"/D/WebServers/home/localhost/www/yii/models/Gosb.php",
+		"/D/WebServers/home/localhost/www/yii/views/mess/_form.php",
+		"/D/WebServers/home/localhost/www/yii/models/Qrqrt_raterq.php",
+		"/D/WebServers/home/localhost/www/best/index.php",
+		"/D/Python/Lib/site-packages/serial/__init__.py",
+		"/D/WebServers/home/localhost/www/yii/requirements.php",
+		"/D/WebServers/home/localhost/www/yii/index.php",
+		"/D/WebServers/home/localhost/www/dot/save_anketa_aj.php",
+		"/D/nginx/html/index.php",
+		"/D/WebServers/home/localhost/www/yii/-prod 19.06/views/site/index.php",
+		"/D/Python/1.py",
+		"/D/Python/2.py",
+		"/D/WebServers/home/localhost/www/video/index.php",
+		"/D/Python/avito.py",
+		"/D/Sublime Text 3/sublime.py",
+		"/D/Python/v1.py",
+		"/D/VMware/iso/unlocker208/unlocker.py",
+		"/D/Users/fdima/Desktop/m1.xml",
+		"/D/#doc/Маслов/detailed_data.xml",
+		"/D/#doc/Маслов/partners.yml",
+		"/D/#doc/py/xor.py",
+		"/D/#doc/py/shazam.py",
+		"/D/#doc/py/sqllite.py",
+		"/D/Ruby/q.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"html\t",
+			";\n",
+			"ticket-kol",
+			" \"",
+			"load_data_event",
+			".itog",
+			"page-choice",
+			"btr",
+			"prbr",
+			"ПРБР",
+			"<sel1>54</sel1>\n\n<sel2>1039</sel2>\n\n<sel3>1</sel3>\n\n<text-problem>Тестовое сообщение</text-problem>\n\n<fio-autor>N</fio-autor>\n\n<sel1>54</sel1>\n\n<sel2>0</sel2>\n\n<sel3>1</sel3>\n\n<text-problem>Тестовое сообщение</text-problem>\n\n<fio-autor>nnabramov@sberbank.ru</fio-autor>\n\n<work_time>17-16-40, 8-12-2017</work_time>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2366,
+								2366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/tp.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5114,
+								5114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/tp.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1299,
+								1299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 170.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tp.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

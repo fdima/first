@@ -1,0 +1,485 @@
+body {
+	font-family: "Helvetica Neue","Segoue UI","Arial",sans-serif;
+	margin: 0px;
+}
+
+.page {
+	/*width:860px;
+	margin:0 auto;*/
+	padding-top: 20px;
+    /* для мобильной верстки*/
+    padding-left: 20px;
+    padding-right: 20px;
+    /* */
+}
+
+.row-choice-date, .row-choice-dop, .row-choice-price {
+	/* display: inline; */ /*для мобильной верстки*/
+	font-size: 18px;
+}
+
+.row-choice {
+	/*padding: 20px;*/
+    padding: 12px 13px;
+    background-color: rgba(138,138,138,.1);
+    border: 1px solid rgba(138,138,138,.2);
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 10px; /*15 для мобильной версии*/
+    transition: background-color .2s,color .2s;
+    cursor: pointer;	
+}
+
+.row-choice:hover {
+    border: 0;
+    padding: 13px 14px;
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+
+.row-choice-checed{
+	border: 0;
+    padding: 13px 14px;
+    background-color: #898989;
+    cursor: pointer;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    color: #fff;
+}
+
+.row-choice-dop {
+	padding-right: 45%;
+}
+
+
+.header-div {
+	/*margin-left: 20px;*/
+	/*
+    padding-top: 20px; */
+	padding-bottom: 20px;
+	font-size: 20px; /*24*/
+}
+
+.header-div-sub1, .header-div-sub2{
+	display: inline;
+}
+
+.ticket-name, .ticket-price, .ticket-kol {
+display:inline-table;
+}
+
+.ticket-kol {
+    padding-top: 10px;
+    text-align: center; /*right для десктопа*/
+    margin: 0 auto;
+    width: 100%;        
+}
+
+.header-div-sub1 {
+	font-size: 12px;
+	/*font-weight: bold;*/
+	/*padding-left: 20px;*/
+}
+
+.header-div-sub2 {
+    /*margin-left: 60%;*/ /* для Десктопа надо 60%*/
+}
+
+input {
+	/*width: 25px;*/
+    font-size: 18px!important;
+    font-family: "Helvetica Neue","Segoue UI","Arial",sans-serif;
+    color: #4d4d4d!important;
+    line-height: 1!important;
+    border: 1px solid #e3e3e3!important;
+    padding: 0px 15px 0 15px!important; 
+    height: 39px!important;
+    background: -moz-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7f7f7),color-stop(14%,#fff),color-stop(100%,#fefefe));
+    background: -webkit-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+    background: -o-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+    background: -ms-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+    background: linear-gradient(to bottom,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fefefe',GradientType=0 );
+    height: 40px; /*important*/
+    box-sizing: border-box;
+    width: 50px;
+    text-align: center;
+   	/*vertical-align: inherit;*/
+   	vertical-align: middle;
+    top: -7px;
+    position: relative;   	
+}
+
+.type-ticket{
+	background-color: #E7E7E7;
+	padding:10px; /*20 для десктопа*/
+}
+
+.type-ticket:nth-of-type(2n) {
+	background-color: #F3F3F3;
+}
+
+.ticket-name {
+	/*font-size: 15px;*/ /*15 для десктопа*/
+	font-weight: bold;
+	/*width: 60%;*/
+    display: inline;
+}
+
+.ticket-price {
+	    /*width: 38%;*/  /*22 для десктопа*/
+    /*text-align: right;*/
+    /*font-weight: bold;*/ /* не нужно для десктопа*/ 
+    /*display: inline;*/
+    /*padding-left: 5%;   */
+    /* width: 38%; */
+    text-align: right;
+    /* font-weight: bold; */
+    display: inline-table;
+    /*padding-left: 5%;*/
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.b-inc, .b-dec {
+    font-weight: 700;
+    background-color: #0970c0;
+    text-decoration: none!important;
+    display: inline-block;
+    border: 0!important;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 1;
+    font-family: "HelveticaNeue",HelveticaNeue,Arial,sans-serif;
+    transition: background-color 100ms ease-out,color 100ms ease-out;
+    background-color: rgba(129,129,129,.2)!important;
+    color: #333!important;
+    border: 0;
+    border-radius: 4px;
+    line-height: 15px!important;
+    color: #333;
+    font-size: 30px;
+    /*padding: 8px 13px 13px 13px;*/
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.b-dec {
+	padding: 8px 13px 13px 13px;
+	position: relative;
+    top: -2px; 
+}
+
+.b-inc {
+    padding: 8px 13px 13px 13px;
+    position: relative;
+    top: -2px; 
+}
+
+
+.b-dec:hover,  .b-inc:hover {
+	background-color: #0b8cf1!important;
+	color: #FFF!important;
+}
+
+.page-choice, .page-choice-root {
+	    margin-top: 10px; /*для дексктопа 20*/
+}
+
+.ticket-itog {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+input[type="checkbox"] {
+	    width: 15px!important;
+}
+
+.checkbox{
+	    margin-bottom: 30px;
+}
+
+.form-control {
+	    text-align: left;
+}
+
+.itog {
+	margin-top: 20px;
+}
+
+.btn-success:disabled{
+	background-color:#F3F3F3;
+	border-color:#E7E7E7;
+	color: #000;
+}
+
+.btn-success:disabled:hover{
+	background-color:#F3F3F3;
+	border-color:#E7E7E7;
+	color: #000;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+span {
+	position: relative;
+    top: 7px;
+}
+
+.f-pay {
+    margin-bottom: 40px;
+}
+
+#ch-anons, #ch-readed {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+.t-checkbox {
+    top: -5px;
+}
+
+.itog {
+    display: none;
+}
+/*+===============================================================================================================================================*/
+/*|стили для десктопа*/
+/*+===============================================================================================================================================*/
+@media only screen and (max-width: 2920px) and (min-width: 768px) {
+/*Полный блок стилей*/
+
+    body {
+        font-family: "Helvetica Neue","Segoue UI","Arial",sans-serif;
+        margin: 0px;
+    }
+
+    .page {
+        width:860px;
+        margin:0 auto;
+        padding-top: 20px;
+    }
+
+    .row-choice-date, .row-choice-dop, .row-choice-price {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .row-choice {
+        /*padding: 20px;*/
+        padding: 12px 13px;
+        background-color: rgba(138,138,138,.1);
+        border: 1px solid rgba(138,138,138,.2);
+        overflow: hidden;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        transition: background-color .2s,color .2s;
+        cursor: pointer;    
+    }
+
+    .row-choice:hover {
+        border: 0;
+        padding: 13px 14px;
+        background-color: #d5d5d5;
+        cursor: pointer;
+    }
+
+    .row-choice-checed{
+        border: 0;
+        padding: 13px 14px;
+        background-color: #898989;
+        cursor: pointer;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+        -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+        color: #fff;
+    }
+
+    .row-choice-dop {
+        padding-right: 45%;
+    }
+
+
+
+    .header-div {
+        /*margin-left: 20px;*/
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .header-div-sub1, .header-div-sub2{
+        display: inline;
+    }
+
+    .ticket-name, .ticket-price, .ticket-kol {
+    display:inline-table;
+    }
+
+    .ticket-kol {
+            text-align: center;
+    margin: 0 auto;
+        width: 0;
+    }
+
+    .header-div-sub1 {
+        font-size: 15px;
+        font-weight: bold;
+        /*padding-left: 20px;*/
+    }
+
+    .header-div-sub2 {
+        margin-left: 60%;
+    }
+
+    input {
+        /*width: 25px;*/
+        font-size: 18px!important;
+        font-family: "Helvetica Neue","Segoue UI","Arial",sans-serif;
+        color: #4d4d4d!important;
+        line-height: 1!important;
+        border: 1px solid #e3e3e3!important;
+        padding: 0px 15px 0 15px!important; 
+        height: 39px!important;
+        background: -moz-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f7f7f7),color-stop(14%,#fff),color-stop(100%,#fefefe));
+        background: -webkit-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+        background: -o-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+        background: -ms-linear-gradient(top,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+        background: linear-gradient(to bottom,#f7f7f7 0%,#fff 14%,#fefefe 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fefefe',GradientType=0 );
+        height: 40px!important;
+        box-sizing: border-box;
+        width: 50px;
+        text-align: center;
+        /*vertical-align: inherit;*/
+        vertical-align: middle;
+        top: -7px;
+        position: relative;     
+    }
+
+    .type-ticket{
+        background-color: #E7E7E7;
+        padding-left:20px;
+    }
+
+    .type-ticket:nth-of-type(2n) {
+        background-color: #F3F3F3;
+    }
+
+    .ticket-name {
+        font-size: 15px;
+        font-weight: bold;
+        width: 60%;
+    }
+
+    .ticket-price {
+            width: 22%;
+        text-align: center;
+    }
+
+
+    .b-inc, .b-dec {
+        font-weight: 700;
+        background-color: #0970c0;
+        text-decoration: none!important;
+        display: inline-block;
+        border: 0!important;
+        color: #fff;
+        border-radius: 3px;
+        line-height: 1;
+        font-family: "HelveticaNeue",HelveticaNeue,Arial,sans-serif;
+        transition: background-color 100ms ease-out,color 100ms ease-out;
+        background-color: rgba(129,129,129,.2)!important;
+        color: #333!important;
+        border: 0;
+        border-radius: 4px;
+        line-height: 15px!important;
+        color: #333;
+        font-size: 30px;
+        /*padding: 8px 13px 13px 13px;*/
+        text-align: center;
+        width: 40px;
+        height: 40px;
+    }
+
+    .b-dec {
+        padding: 8px 13px 13px 13px;
+        position: relative;
+        top: -2px; 
+    }
+
+    .b-dec:hover,  .b-inc:hover {
+        background-color: #0b8cf1!important;
+        color: #FFF!important;
+    }
+
+    .page-choice, .page-choice-root {
+            margin-top: 20px;
+    }
+
+    .ticket-itog {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    input[type="checkbox"] {
+            width: 15px!important;
+    }
+
+    .checkbox{
+            margin-bottom: 30px;
+    }
+
+    .form-control {
+            text-align: left;
+    }
+
+    .itog {
+        margin-top: 20px;
+    }
+
+    .btn-success:disabled{
+        background-color:#F3F3F3;
+        border-color:#E7E7E7;
+        color: #000;
+    }
+
+    .btn-success:disabled:hover{
+        background-color:#F3F3F3;
+        border-color:#E7E7E7;
+        color: #000;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    .ticket-name-t {
+            top: -10px;
+    }
+
+    .ticket-price-t {
+            top: -3px;
+    }
+
+}
+/*специальные стили для FB*/
+#status {
+        padding-top: 20px;
+}
+
+.div-fb {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+        text-align: center;
+}
+/*специальные стили для FB*/
