@@ -15,6 +15,7 @@
 	<link rel="shortcut icon" type="image/ico" href="./favicon.ico">
 </head>
 <body>
+	<!--  -->
 	<?
 	if (isset($_GET['d']) == false) {
 		echo("нет данных для загрузки");
